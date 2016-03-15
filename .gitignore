@@ -1,4 +1,5 @@
-m.xml
+pom.xml
+
 pom.xml.asc
 *jar
 /lib/
@@ -10,3 +11,4 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-pori
+.nrepl-port
