@@ -11,12 +11,29 @@
 (defn log [x, y]
   (Math/log x))
 
+(defn plus [x, y]
+  (Math/log x))
+
+(defn minus [x, y]
+  (Math/log x))
+
+(defn mult [x, y]
+  (Math/log x))
+
+(defn div [x, y]
+  (Math/log x))
+
 
 (defn getAction[action]
   (case action
     "radix" root
     "power" power
-    "log" log))
+    "log" log
+    "plus" plus
+    "minus" minus
+    "mult" mult
+    "div" div
+    ))
 
 (defn handler [request]
   (response {:answer

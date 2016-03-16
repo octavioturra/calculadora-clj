@@ -12,3 +12,12 @@ pom.xml.asc
 .lein-failures
 .nrepl-pori
 .nrepl-port
+
+/node_modules/
+
+node_modules
+.DS_Store
+js/bundle.js
+js/bundle.min.js
+build
+npm-debug.log
